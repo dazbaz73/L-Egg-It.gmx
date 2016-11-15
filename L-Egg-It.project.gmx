@@ -3,11 +3,48 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <NewExtensions>
+    <extension index="0">extensions\P.E - Character</extension>
+  </NewExtensions>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\sprFloor</sprite>
+    <sprite>sprites\sprGround</sprite>
+    <sprite>sprites\spr_Player</sprite>
+    <sprites name="Player">
+      <sprite>sprites\spr_PlayerStandRight</sprite>
+      <sprite>sprites\spr_PlayerStandLeft</sprite>
+      <sprite>sprites\spr_PlayerWalkRight</sprite>
+      <sprite>sprites\spr_PlayerWalkLeft</sprite>
+      <sprite>sprites\spr_PlayerJumpRight</sprite>
+      <sprite>sprites\spr_PlayerJumpLeft</sprite>
+      <sprite>sprites\spr_PlayerFallRight</sprite>
+      <sprite>sprites\spr_PlayerFallLeft</sprite>
+      <sprite>sprites\spr_PlayerDuckRight</sprite>
+      <sprite>sprites\spr_PlayerDuckLeft</sprite>
+      <sprite>sprites\spr_PlayerHangRight</sprite>
+      <sprite>sprites\spr_PlayerHangLeft</sprite>
+      <sprite>sprites\spr_PlayerCeilingHangMoveRight</sprite>
+      <sprite>sprites\spr_PlayerCeilingHangMoveLeft</sprite>
+      <sprite>sprites\spr_PlayerWallslideRight</sprite>
+      <sprite>sprites\spr_PlayerWallslideLeft</sprite>
+    </sprites>
+    <sprites name="Particles">
+      <sprite>sprites\spr_Particle</sprite>
+    </sprites>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts"/>
+  <objects name="objects">
+    <object>objects\obj_Ground</object>
+    <object>objects\obj_Player</object>
+    <object>objects\obj_PlayerCol</object>
+    <object>objects\obj_Particle</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rmMain</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
